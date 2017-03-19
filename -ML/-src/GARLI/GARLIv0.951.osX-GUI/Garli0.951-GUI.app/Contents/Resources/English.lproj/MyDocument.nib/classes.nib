@@ -1,0 +1,54 @@
+{
+    IBClasses = (
+        {
+            CLASS = DMTableView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                charactersArrayController = NSArrayController; 
+                taxaArrayController = NSArrayController; 
+            }; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MasterScrollView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {otherTableView = NSTableView; }; 
+            SUPERCLASS = NSScrollView; 
+        }, 
+        {
+            ACTIONS = {
+                chooseConstraintFileAction = id; 
+                openRunLogAction = id; 
+                runProgram = id; 
+                scalePopUpAction = id; 
+                sendToTreeViewAction = id; 
+                terminateProgram = id; 
+            }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                garliController = NSObjectController; 
+                graphView = SM2DGraphView; 
+                mainWindow = NSWindow; 
+                runButton = NSButton; 
+                tabView = NSTabView; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {scalePopUpAction = id; }; 
+            CLASS = ScalingScrollView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {zoomTarget = id; }; 
+            SUPERCLASS = NSScrollView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

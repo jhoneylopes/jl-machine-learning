@@ -1,0 +1,56 @@
+[general]
+datafname = <datafname/>
+constraintfile = <constraintfile/>
+streefname = <streefname/>
+ofprefix = <ofprefix/>
+randseed = <randseed/>
+availablememory = <availablememory/>
+logevery = <logevery/>
+saveevery = <saveevery/>
+refinestart = <refinestart/>
+outputeachbettertopology = <outputeachbettertopology/>
+enforcetermconditions = <enforcetermconditions/>
+genthreshfortopoterm = <genthreshfortopoterm/>
+scorethreshforterm = <scorethreshforterm/>
+significanttopochange = <significanttopochange/>
+outputphyliptree = <outputphyliptree/>
+outputmostlyuselessfiles = <outputmostlyuselessfiles/>
+writecheckpoints = 0
+restart = 0
+
+ratematrix = <ratematrix/>
+statefrequencies = <statefrequencies/>
+ratehetmodel = <ratehetmodel/>
+numratecats = <numratecats/>
+invariantsites = <invariantsites/>
+
+[master]
+nindivs = <nindivs/>
+holdover = <holdover/>
+selectionintensity = <selectionintensity/>
+holdoverpenalty = <holdoverpenalty/>
+stopgen = <stopgen/>
+stoptime = <stoptime/>
+
+startoptprec = <startoptprec/>
+minoptprec = <minoptprec/>
+numberofprecreductions = <numberofprecreductions/>
+treerejectionthreshold = 50.0
+topoweight = <topoweight/>
+modweight = <modweight/>
+brlenweight = <brlenweight/>
+randnniweight = <randnniweight/>
+randsprweight = <randsprweight/>
+limsprweight =  <limsprweight/>
+intervallength = <intervallength/>
+intervalstostore = <intervalstostore/>
+
+limsprrange = <limsprrange/>
+meanbrlenmuts = <meanbrlenmuts/>
+gammashapebrlen = <gammashapebrlen/>
+gammashapemodel = <gammashapemodel/>
+uniqueswapbias = <uniqueswapbias/>
+distanceswapbias = <distanceswapbias/>
+
+bootstrapreps = <bootstrapreps/>
+inferinternalstateprobs = <inferinternalstateprobs/>

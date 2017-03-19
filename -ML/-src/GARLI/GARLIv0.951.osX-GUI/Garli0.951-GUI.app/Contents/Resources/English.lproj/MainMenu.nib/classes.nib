@@ -1,0 +1,42 @@
+{
+    IBClasses = (
+        {CLASS = AppController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {openManual = id; openRunLogAction = id; runProgram = id; showLogWindow = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = GARLIDocumentController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSDocumentController; 
+        }, 
+        {
+            ACTIONS = {
+                editModel = id; 
+                endModelSheet = id; 
+                endProgressSheet = id; 
+                runProgram = id; 
+                scalePopUpAction = id; 
+                sendToTreeViewAction = id; 
+                showLogWindow = id; 
+                terminateProgram = id; 
+            }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                garliController = NSObjectController; 
+                graphView = SM2DGraphView; 
+                logWindow = NSWindow; 
+                mainWindow = NSWindow; 
+                modelSheet = NSWindow; 
+                progressSheet = NSWindow; 
+                progressSheetButton = NSButton; 
+                tabView = NSTabView; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }
+    ); 
+    IBVersion = 1; 
+}
